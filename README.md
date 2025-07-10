@@ -14,10 +14,10 @@ This Python script automates the process of recording and calculating class part
 
 ## 📁 Folder Structure
 
-<pre> ```project-folder/ 
+<pre>project-folder/ 
 ├── add_zipfiles_here/   # Place all Padlet .csv zipfiles exports here 
 ├── cp.csv               # Automatically generated/updated CP record 
-└── tracker.py           # Script with core functionality ``` </pre>
+└── tracker.py           # Script with core functionality </pre>
 
 
 ## 🚀 Getting Started
