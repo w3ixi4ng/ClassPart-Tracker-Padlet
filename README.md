@@ -4,18 +4,20 @@ This Python script automates the process of recording and calculating class part
 
 ## 💡 Features
 
-- Automatically scans the `add_post_here` directory for `.csv` exports from Padlet.
+- Download Padlet csvs zipfiles into `add_zipfiles_here`.
+- Automatically process and scans the `add_zipfiles_here` directory for Posts `.csv` exports from Padlet.
 - Extracts student names from the `Author` column.
 - Adds or updates each student's CP score in `cp.csv`.
 - Prevents duplicate counting using a tracking mechanism.
 - Displays a clean table of participation scores.
+- Resets `add_zipfiles_here` directory and `cp.csv` using `reset.py`.
 
 ## 📁 Folder Structure
 
 project-folder/ 
-├── add_post_here/       # Place all Padlet .csv exports here 
+├── add_zipfiles_here/   # Place all Padlet .csv zipfiles exports here 
 ├── cp.csv               # Automatically generated/updated CP record 
-└── padlet_reader.py     # Script with core functionality
+└── tracker.py           # Script with core functionality
 
 
 ## 🚀 Getting Started
@@ -25,25 +27,26 @@ project-folder/
    `pip install pandas`
 
 2. **Add CSV Files**
-    Export Padlet posts as .csv 
-    Unzip the folder, rename (if necessary) and move only the Posts `.csv` inside the `add_post_here` folder.
+    Export Padlet posts as .csv into the `add_zipfiles_here` folder.
 
 3. **Run the Script**
-    `python padlet_reader.py`
+    `python tracker.py`
 
 4. **View Results**
     The CP scores will be printed in table format and stored in `cp.csv`.
 
+4. **New Day**
+    Run `python reset.py` for a new lesson
+
 
 ## 📌 Notes
-- Manual unzipping and moving of `.csv` files is required.
 - Students are uniquely identified by the name in the Author field.
 - Duplicate entries within a file are ignored to avoid inflation.
 - Initial participation grants 1 CP; subsequent entries increase their score cumulatively.
 
 
 ## 🛠️ Potential Enhancements
-- Automatically unzip files and process only post `.csv`.
+- Auto save each lesson's Class Participation record in a new file.
 - Log errors or failed reads to a debug file.
 - Add support for unique student IDs to avoid name collisions.
 - Introduce a GUI for ease of use.
