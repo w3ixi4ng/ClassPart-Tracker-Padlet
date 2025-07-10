@@ -54,7 +54,7 @@ This Python script automates the process of recording and calculating class part
 - Introduce a GUI for ease of use.
 
 
-## Created by Lau to simplify classroom engagement tracking. 📚✨
+## Created by Lau to simplify classroom participation tracking. 📚✨
 
 ## Let me know if you want to tweak this for a more technical audience, include screenshots, or add contribution guidelines—it’s your masterpiece, I’m just polishing it. 😄
 
