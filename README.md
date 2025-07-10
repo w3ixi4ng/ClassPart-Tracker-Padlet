@@ -17,6 +17,7 @@ This Python script automates the process of recording and calculating class part
 <pre>project-folder/ 
 ├── add_zipfiles_here/   # Place all Padlet .csv zipfiles exports here 
 ├── cp.csv               # Automatically generated/updated CP record 
+├── reset.py             # Script to reset application for new session/lesson
 └── tracker.py           # Script with core functionality </pre>
 
 
