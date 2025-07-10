@@ -36,10 +36,11 @@ project-folder/
     The CP scores will be printed in table format and stored in `cp.csv`.
 
 4. **New Day**
-    Run `python reset.py` for a new lesson
+    Run `python reset.py` when you are ready to begin a new session/lesson.
 
 
 ## 📌 Notes
+- To avoid PermissionError: [WinError 5], run this project from a local drive (e.g., C:\) instead of a OneDrive folder.
 - Students are uniquely identified by the name in the Author field.
 - Duplicate entries within a file are ignored to avoid inflation.
 - Initial participation grants 1 CP; subsequent entries increase their score cumulatively.

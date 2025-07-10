@@ -82,7 +82,10 @@ def main():
     process_files(zip_files_folder, results_file)
 
     # final call to show results
-    table(results_file)
+    if os.path.exists(results_file):
+        table(results_file)
+    else:
+        print(f"No data. Add Padlet csv zipfiles in {zip_files_folder} to proceed.")
 
 
 if __name__ == "__main__":
