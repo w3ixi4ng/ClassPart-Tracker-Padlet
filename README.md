@@ -4,7 +4,7 @@ This Python script automates the process of recording and calculating class part
 
 ## 💡 Features
 
-- Download Padlet csvs zipfiles into `add_zipfiles_here`.
+- Download Padlet csv zipfiles into `add_zipfiles_here`.
 - Automatically process and scans the `add_zipfiles_here` directory for Posts `.csv` exports from Padlet.
 - Extracts student names from the `Author` column.
 - Adds or updates each student's CP score in `cp.csv`.
@@ -28,7 +28,7 @@ This Python script automates the process of recording and calculating class part
    `pip install pandas`
 
 2. **Add CSV Files**
-    Export Padlet posts as .csv into the `add_zipfiles_here` folder.
+    Export Padlet posts as csv into the `add_zipfiles_here` folder.
 
 3. **Run the Script**
     `python tracker.py`
