@@ -29,11 +29,12 @@ This Python script automates the process of recording and calculating class part
 
 2. **Add CSV Files**
     Export Padlet posts as csv into the `add_zipfiles_here` folder.
-
-3. **Run the Script**
+    Note: Download all zipfiles before running script.
+   
+4. **Run the Script**
     `python tracker.py`
 
-4. **View Results**
+5. **View Results**
     The CP scores will be printed in table format and stored in `cp.csv`.
 
 4. **New Day**
@@ -42,6 +43,7 @@ This Python script automates the process of recording and calculating class part
 
 ## 📌 Notes
 - To avoid PermissionError: [WinError 5], run this project from a local drive (e.g., C:\) instead of a OneDrive folder.
+- Download ALL zipfiles into `add_zipfiles_here ` directory before running script.
 - Students are uniquely identified by the name in the Author field.
 - Duplicate entries within a file are ignored to avoid inflation.
 - Initial participation grants 1 CP; subsequent entries increase their score cumulatively.
