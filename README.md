@@ -27,8 +27,8 @@ This Python script automates the process of recording and calculating class part
    Requires `pandas`, which can be installed via pip: `pip install pandas`
 
 3. **Add CSV Files**  
-   Export Padlet posts as csv and download it into the `add_zipfiles_here` folder.   
-   Note: Download and place all zipfiles into the `add_zipfiles_here` folder before running the script.   
+   Export Padlet posts as csv and download it into the `add_zipfiles_here` folder.    
+   Note: Padlet zipfiles might have the same filename. To avoid overwriting, rename each zipfile before downloading them into the folder (e.g., q1.zip, q2.zip, etc.).
    
 5. **Run the Script**  
    Execute the main script using `python tracker.py`
