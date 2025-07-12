@@ -24,8 +24,7 @@ This Python script automates the process of recording and calculating class part
 ## 🚀 Getting Started
 
 1. **Install Dependencies**  
-   Requires `pandas`, which can be installed via pip:  
-   `pip install pandas`
+   Requires `pandas`, which can be installed via pip: `pip install pandas`
 
 3. **Add CSV Files**  
    Export Padlet posts as csv into the `add_zipfiles_here` folder.  
@@ -43,7 +42,7 @@ This Python script automates the process of recording and calculating class part
 
 ## 📌 Notes
 - To avoid PermissionError: [WinError 5], run this project from a local drive (e.g., C:\) instead of a OneDrive folder.
-- Download ALL zipfiles into `add_zipfiles_here ` directory before running script.
+- Download ALL zipfiles into `add_zipfiles_here` directory before running script.
 - Students are uniquely identified by the name in the Author field.
 - Duplicate entries within a file are ignored to avoid inflation.
 - Initial participation grants 1 CP; subsequent entries increase their score cumulatively.
