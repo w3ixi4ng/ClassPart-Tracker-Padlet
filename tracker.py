@@ -63,7 +63,7 @@ def main():
 
 
     # final call to show results
-    if os.path.exists(results_file):
+    if os.path.exists(results_file) and cp_dict:
         table(results_file)
     else:
         print(f"No data. Add Padlet csv zipfiles in {zip_files_folder} to proceed.")
