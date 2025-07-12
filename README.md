@@ -27,17 +27,17 @@ This Python script automates the process of recording and calculating class part
    Requires `pandas`, which can be installed via pip: `pip install pandas`
 
 3. **Add CSV Files**  
-   Export Padlet posts as csv into the `add_zipfiles_here` folder.  
-    Note: Download all zipfiles before running script.
+   Export Padlet posts as csv and download it into the `add_zipfiles_here` folder.    
+   Note: Padlet zipfiles might have the same filename. To avoid overwriting, rename each zipfile before downloading them into the folder (e.g., q1.zip, q2.zip, etc.).
    
 5. **Run the Script**  
-   `python tracker.py`
+   Execute the main script using `python tracker.py`
 
 7. **View Results**  
-   The CP scores will be printed in table format and stored in `cp.csv`.
+   The Class Participation (CP) scores will be printed in a table format and saved in `cp.csv`.
 
 4. **New Day**  
-   Run `python reset.py` when you are ready to begin a new session/lesson.
+   When starting a new session/lesson, reset the folder and data using `python reset.py`.
 
 
 ## 📌 Notes
