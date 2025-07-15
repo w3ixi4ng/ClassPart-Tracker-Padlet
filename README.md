@@ -41,15 +41,17 @@ This Python script automates the process of recording and calculating class part
 
 
 ## 📌 Notes
+- Manually track participation when students are unable to post on Padlet.
+- Duplicate entries within a file are ignored to avoid inflation (e.g., when posting on behalf of classmates).
 - To avoid PermissionError: [WinError 5], run this project from a local drive (e.g., C:\) instead of a OneDrive folder.
 - Download ALL zipfiles into `add_zipfiles_here` directory before running script.
 - Students are uniquely identified by the name in the Author field.
-- Duplicate entries within a file are ignored to avoid inflation.
 - Initial participation grants 1 CP; subsequent entries increase their score cumulatively.
 
 
 ## 🛠️ Potential Enhancements
-- Auto save each lesson's Class Participation record in a new file.
+- Auto save each lesson's Class Participation record in a new folder.
+- Implement automated detection of student names in post content to track participation when posts are made using a friend's account.
 - Log errors or failed reads to a debug file.
 - Add support for unique student IDs to avoid name collisions.
 - Introduce a GUI for ease of use.
